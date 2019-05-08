@@ -13,6 +13,7 @@
 		557CD99522831FF20061BF7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557CD99422831FF20061BF7B /* Assets.xcassets */; };
 		557CD99822831FF20061BF7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557CD99622831FF20061BF7B /* LaunchScreen.storyboard */; };
 		557CD99B22831FF20061BF7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 557CD99A22831FF20061BF7B /* main.m */; };
+		557CD9A3228324CC0061BF7B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 557CD9A2228324CC0061BF7B /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		557CD99722831FF20061BF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		557CD99922831FF20061BF7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		557CD99A22831FF20061BF7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		557CD9A1228324CC0061BF7B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		557CD9A2228324CC0061BF7B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				557CD99622831FF20061BF7B /* LaunchScreen.storyboard */,
 				557CD99922831FF20061BF7B /* Info.plist */,
 				557CD99A22831FF20061BF7B /* main.m */,
+				557CD9A1228324CC0061BF7B /* SecondViewController.h */,
+				557CD9A2228324CC0061BF7B /* SecondViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557CD9A3228324CC0061BF7B /* SecondViewController.m in Sources */,
 				557CD99022831FF00061BF7B /* ViewController.m in Sources */,
 				557CD99B22831FF20061BF7B /* main.m in Sources */,
 				557CD98D22831FF00061BF7B /* AppDelegate.m in Sources */,
